@@ -75,3 +75,7 @@ if [[ ! -d "$TMPPREFIX" ]]; then
   mkdir -p "$TMPPREFIX"
 fi
 
+# go path
+export GOPATH=~/go
+export PATH=$PATH:$GOPATH/bin
+
